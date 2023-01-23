@@ -5,8 +5,8 @@
 Build a search component that makes requests to the pexels API and displays the results on the screen.
 
 ### Docs
-https://www.pexels.com/api/documentation/
-https://axios-http.com/docs/intro
+- https://www.pexels.com/api/documentation/
+- https://axios-http.com/docs/intro
 
 
 ### Minimum requirements
@@ -22,8 +22,8 @@ Extras:
 
 
 ## Setup
-
-- Install dependencies with `npm install`
+- Clone this repo
+- Install dependencies with `yarn install`
 - Run the dev server with `yarn run dev`
 
 

@@ -2,19 +2,19 @@
 
 ## Task
 
-Build a search component that makes requests to the pexels API and displays the results on the screen.
+Build a search component that makes requests to the pexels API and displays the results on the screen. 
+
+You can install & use any javascript libraries you prefer.
 
 ### Docs
 - https://www.pexels.com/api/documentation/
-- https://axios-http.com/docs/intro
 
 
 ### Minimum requirements
 - User can enter a search term in an input field
-- Search by query (`tigers`, `squirrels`, `grass`)
+- Search by query (`tigers`, `squirrels`, `grass`), see pexels API documentation
 - Results are rendered on the page
 - Pagination loads the next 15 images
-- Clicking on an image opens it in a modal??
 
 
 Extras:

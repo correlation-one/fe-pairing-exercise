@@ -16,7 +16,7 @@ You can install & use any javascript libraries you prefer.
 Extra functionality if there's time:
 - Ability to search by color
 - Ability to customize pagination amount
-- [Typeahead](https://en.wikipedia.org/wiki/Incremental_search)-style search input
+- Clicking on a photo opens it in a modal at higher resolution
 
 ## Setup
 - Clone this repo

@@ -1,31 +1,71 @@
-# C1 Pairing
+# Frontend Challenge – Assignments App
 
-## Task
+## 📋 Description
 
-Build a search component that makes requests to the pexels API and displays the results on the screen. 
+This project is a boilerplate built with:
 
-You can install & use any javascript libraries you prefer.
+- Vite
+- React
+- TypeScript
 
+> **Note**: You don't need to use TypeScript if you don't want to — feel free to use plain JavaScript.
 
-## Minimum requirements
-- User can enter a search term in an input field
-- Search by query (`tigers`, `squirrels`, `grass`), see pexels API documentation
-- Results are rendered on the page
-- Pagination loads the next 15 images
+The goal is to build a simple Assignments Platform where students can view and submit their assignments.
 
-Extra functionality if there's time:
-- Ability to search by color
-- Ability to customize pagination amount
-- Clicking on a photo opens it in a modal at higher resolution
+## 🚀 Challenge Instructions
 
-## Setup
-- Clone this repo
-- Install dependencies with `yarn install`
-- Run the dev server with `yarn run dev`
+You can install and use any libraries you consider helpful.
 
+Use the provided fetchAssignmentsData function, which simulates an API call and returns the list of assignments according to the defined contract.
 
-## Docs
-- https://www.pexels.com/api/documentation/
+Your application must allow users to view assignments in two different states:
 
-API key:
-> jt4L28OnHSJmFG34WHFXu9g6ECY7mlar5fuXjUEx2udquTzT0i6kYsUy
+- **Todo** (pending assignments)
+- **Completed** (already submitted assignments)
+
+## ✅ Requirements
+
+### For Todo assignments:
+
+Display the following information:
+
+- Due date
+- Title
+- Description
+- If the assignment is optional, show a badge/tag labeled "Optional".
+- If the assignment is a group assignment, show a badge/tag labeled "Group".
+- If the assignment is overdue (the due date has passed):
+  - Disable the submission button for that assignment.
+- Include a "Submit" button for each assignment. The button doesn't need to actually submit anything.
+
+### For Completed assignments:
+
+Display the following information:
+
+- Title
+- Description
+- Score
+- A submission link (make it clickable).
+
+## 📦 Setup
+
+1. **Use the correct Node version**:
+
+   ```bash
+   nvm use
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```

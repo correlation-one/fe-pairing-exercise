@@ -9,7 +9,7 @@ type Assignment = {
     is_group: boolean;
     description: string;
   };
-  submission_details: {
+  submission_details?: {
     score: number;
     submission_link: string;
   };
@@ -31,11 +31,6 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             description:
               "Create a responsive landing page that adapts to mobile, tablet, and desktop screens.",
           },
-          submission_details: {
-            score: 92,
-            submission_link:
-              "https://dummydata.com/submissions/responsive-layout",
-          },
         },
         {
           general_info: {
@@ -48,10 +43,6 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             is_group: false,
             description:
               "Build a small site with hover effects, keyframe animations, and smooth transitions.",
-          },
-          submission_details: {
-            score: 85,
-            submission_link: "https://dummydata.com/submissions/css-animations",
           },
         },
         {
@@ -66,10 +57,6 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             description:
               "Implement a registration form in React with real-time validation and error handling.",
           },
-          submission_details: {
-            score: 78,
-            submission_link: "https://dummydata.com/submissions/react-forms",
-          },
         },
         {
           general_info: {
@@ -82,11 +69,6 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             is_group: true,
             description:
               "Build reusable UI components (buttons, modals) following WCAG accessibility standards.",
-          },
-          submission_details: {
-            score: 88,
-            submission_link:
-              "https://dummydata.com/submissions/accessible-components",
           },
         },
         {
@@ -119,11 +101,6 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             description:
               "Build a simple React + Redux app managing authentication and user data.",
           },
-          submission_details: {
-            score: 82,
-            submission_link:
-              "https://dummydata.com/submissions/redux-state-management",
-          },
         },
         {
           general_info: {
@@ -137,10 +114,6 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             description:
               "Write unit tests for a React application using Jest and React Testing Library.",
           },
-          submission_details: {
-            score: 87,
-            submission_link: "https://dummydata.com/submissions/jest-testing",
-          },
         },
         {
           general_info: {
@@ -153,10 +126,6 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             is_group: true,
             description:
               "Create a basic design system with consistent spacing, typography, and components.",
-          },
-          submission_details: {
-            score: 79,
-            submission_link: "https://dummydata.com/submissions/design-system",
           },
         },
         {
@@ -187,11 +156,6 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             is_group: false,
             description:
               "Fetch and display data from a mock REST API using Axios in a React app.",
-          },
-          submission_details: {
-            score: 90,
-            submission_link:
-              "https://dummydata.com/submissions/api-integration",
           },
         },
       ];

@@ -25,6 +25,12 @@ Your application must allow users to view assignments in two different states:
 
 ## ✅ Requirements
 
+### General:
+
+- The app must have **two separate screens**:
+  - One for **Todo assignments**
+  - One for **Completed assignments**
+
 ### For Todo assignments:
 
 Display the following information:
@@ -34,9 +40,9 @@ Display the following information:
 - Description
 - If the assignment is optional, show a badge/tag labeled "Optional".
 - If the assignment is a group assignment, show a badge/tag labeled "Group".
+- Include a "Submit" button for each assignment. The button doesn't need to actually submit anything.
 - If the assignment is overdue (the due date has passed):
   - Disable the submission button for that assignment.
-- Include a "Submit" button for each assignment. The button doesn't need to actually submit anything.
 
 ### For Completed assignments:
 

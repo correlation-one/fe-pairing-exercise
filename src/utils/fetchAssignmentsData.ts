@@ -25,7 +25,7 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             title: "Responsive Layout Challenge",
             category: "Frontend Development",
             due_date: "2025-05-15T23:59:00Z",
-            is_overdue: false,
+            is_overdue: true,
             is_optional: false,
             is_group: false,
             description:
@@ -53,7 +53,7 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             due_date: "2025-05-29T23:59:00Z",
             is_overdue: false,
             is_optional: false,
-            is_group: false,
+            is_group: true,
             description:
               "Implement a registration form in React with real-time validation and error handling.",
           },
@@ -65,7 +65,7 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             category: "Frontend Accessibility",
             due_date: "2025-06-05T23:59:00Z",
             is_overdue: false,
-            is_optional: false,
+            is_optional: true,
             is_group: true,
             description:
               "Build reusable UI components (buttons, modals) following WCAG accessibility standards.",
@@ -95,7 +95,7 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             title: "State Management with Redux",
             category: "Frontend Development",
             due_date: "2025-06-19T23:59:00Z",
-            is_overdue: false,
+            is_overdue: true,
             is_optional: true,
             is_group: true,
             description:
@@ -110,7 +110,7 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             due_date: "2025-06-26T23:59:00Z",
             is_overdue: false,
             is_optional: false,
-            is_group: false,
+            is_group: true,
             description:
               "Write unit tests for a React application using Jest and React Testing Library.",
           },
@@ -123,7 +123,7 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             due_date: "2025-07-03T23:59:00Z",
             is_overdue: false,
             is_optional: true,
-            is_group: true,
+            is_group: false,
             description:
               "Create a basic design system with consistent spacing, typography, and components.",
           },
@@ -152,8 +152,8 @@ export const fetchAssignmentsData = (): Promise<Assignment[]> => {
             category: "Frontend Development",
             due_date: "2025-07-17T23:59:00Z",
             is_overdue: false,
-            is_optional: false,
-            is_group: false,
+            is_optional: true,
+            is_group: true,
             description:
               "Fetch and display data from a mock REST API using Axios in a React app.",
           },
